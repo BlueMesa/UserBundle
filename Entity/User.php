@@ -28,7 +28,6 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Entity(repositoryClass="Bluemesa\Bundle\UserBundle\Repository\UserRepository")
  * @ORM\InheritanceType("SINGLE_TABLE")
  * @ORM\DiscriminatorColumn(name="type", type="string")
- * @ORM\Table(name="user")
  *
  * @author Radoslaw Kamil Ejsmont <radoslaw@ejsmont.net>
  */
