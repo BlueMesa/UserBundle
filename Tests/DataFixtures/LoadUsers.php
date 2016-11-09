@@ -47,6 +47,7 @@ class LoadUsers extends AbstractFixture implements OrderedFixtureInterface, Cont
      */
     public function load(ObjectManager $manager)
     {
+        // aaa
         $manager = $this->container->get('fos_user.user_manager');
 
         $user = new User;
