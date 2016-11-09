@@ -71,6 +71,7 @@ class LoadUsers extends AbstractFixture implements OrderedFixtureInterface, Cont
         $admin->setEnabled(true);
         $manager->updateUser($admin);
         $this->addReference('admin', $admin);
+
     }
 
     /**
